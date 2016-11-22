@@ -52,7 +52,7 @@ public class PocketHouse extends JavaPlugin {
 			config = new PluginConfig(dataFolder);
 			config.load();
 			if(config.enableUpdater) {
-				new Skyupdater(this, 00000, this.getFile(), true, true);
+				new Skyupdater(this, 103428, this.getFile(), true, true);
 			}
 			
 			messages = new PluginMessages(dataFolder);
