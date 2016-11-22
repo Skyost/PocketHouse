@@ -1,0 +1,22 @@
+POCKETHOUSE - BY SKYOST
+=======================
+Please read this if you want to edit or replace the default schematic !
+
+Well, first you need to know that you will not be able to fully delete your old houses (because
+the delete process depends of the schematic : the plugin loads the schematic, calculates its
+height, its width and its length and replaces every block of the old house by an air block; so
+when you replace the schematic, the height, the width and the length change).
+
+So if you want to get through this problem, the only thing you can do is to delete you world.
+Yeah, it's pretty simple.
+
+Oh, and if you want to reset or delete the world "pockethouse_houses" (by default), please also
+delete the directory "players" which is located in the plugin's directory (../plugins/PocketHouse/players).
+Same if you want to delete this folder, please also delete the world. They depend on each other.
+
+Don't forget to change the values of "spawn" and "gap" according to the size of your schematic and
+to the server's view distance.
+
+That's all, good game and enjoy this lovely plugin <3
+
+- Skyost

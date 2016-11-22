@@ -1,0 +1,27 @@
+name: PocketHouse
+main: fr.skyost.pockethouse.PocketHouse
+description: Your house in your pocket !
+version: 0.1
+author: Skyost
+website: http://dev.bukkit.org/bukkit-plugins/pocket-house/
+commands:
+  pockethouse:
+    description: Main command of PocketHouse.
+    aliases: [pocket-house]
+    usage: /pockethouse teleport <player> | /pockethouse teleport-back | /pockethouse delete <player>
+permissions:
+ pockethouse.command.teleport:
+  default: op
+  description: Allows you to use /pockethouse teleport <player>.
+ pockethouse.command.teleport-back:
+  default: op
+  description: Allows you to use /pockethouse teleport-back.
+ pockethouse.command.delete:
+  default: op
+  description: Allows you to use /pockethouse delete <player>.
+ pockethouse.item.craft:
+  default: true
+  description: Allows you to craft the item.
+ pockethouse.item.use:
+  default: true
+  description: Allows you to use the item.
